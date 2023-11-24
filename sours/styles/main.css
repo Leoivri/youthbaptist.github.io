@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Gabriela&display=swap');
+
+body {
+    font-family: Gabriela, sans-serif;
+    background: #333333
+}
+
+p {
+    color: rgb(255, 228, 196);
+}
+
+a {
+    color: rgb(210, 180, 140);
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: rgba(255, 228, 196, 0.486);
+}
+
+/* header */
+
+header {
+    background: #333333
+}
+
+.nav-link {
+    color: rgb(255, 228, 196);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: rgb(210, 180, 140);
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: rgb(210, 180, 140);
+}
+
+.nav-link:hover {
+    color: rgba(255, 228, 196, 0.486);
+}
+
+.dropdown-menu {
+    background: #333333;
+}
+
+.dropdown-item {
+    color: rgb(255, 228, 196);
+}
+
+/* section */
+
+.board>p {
+    font-size: 3em;
+}
+
+/* footer */
+
+.footer-text {
+    color: rgb(255, 228, 196);
+    margin: auto auto;
+}
+
+.footer-text>a {
+    color: rgb(255, 228, 196);
+}
+
+.footer-text>a:hover {
+    color: rgba(255, 228, 196, 0.486);
+}
+
+footer {
+    padding-top: 1em;
+    background: #333333;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+@media print {
+    @page {
+        size: landscape; /* Устанавливаем альбомную ориентацию */
+    }
+}
+
+body {
+    width: 297mm; /* Ширина страницы */
+    height: 210mm; /* Высота страницы */
+    background-color: #333333;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 228, 196);
+    padding-left: 30mm;
+    padding-right: 30mm;
+}
+
+.event {
+    padding-top: 10mm;
+    width: 100%;
+    height: 33%;
+}
+
+.date-name {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.date {
+    font-size: 15mm;
+    color: rgb(210, 180, 140);
+}
+
+.name {
+    font-size: 14mm;
+}
+
+.description {
+    width: 50%;
+    height: 100%;
+    float: right;
+    font-size: 10mm;
+}
